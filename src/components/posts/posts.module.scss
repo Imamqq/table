@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+}
+
+.table {
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+
+    tr {
+        th {
+            background-color: #474955;
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            height: 57px;
+            border: none;
+            cursor: pointer;
+
+            img {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+td {
+    border: 1px solid #E3E6EC;
+    font-size: 13px;
+    font-weight: 500;
+    height: 61.5px;
+}
+
+.id {
+    width: 9, 9%;
+}
+
+.title {
+    padding: 0 10px;
+    width: 51, 1%;
+    text-align: left;
+}
+
+.body {
+    padding: 0 10px;
+    width: 39%;
+    text-align: left;
+}
+
+.pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.pages {
+    display: flex;
+    gap: 12px;
+    color: #474955;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tuda_suda {
+    color: #474955;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.active {
+    color: #7EBC3C;
+}
